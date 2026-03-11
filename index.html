@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>Air Canvas - Gesture Drawing</title>
+  <title>Агаар дээр зурах</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
@@ -937,19 +937,19 @@
 
       <div id="ui-overlay">
       <div class="title-section">
-        <div class="title-text">Air Canvas</div>
-        <div class="subtitle-text">Designed by <a href="https://www.instagram.com/janustiu/" target="_blank" rel="noopener noreferrer">Janus Tiu</a></div>
+        <div class="title-text">Агаар дуур зурах</div>
+        <div class="subtitle-text">ШУТИС<a href="https://www.instagram.com/janustiu/" target="_blank" rel="noopener noreferrer">Мөнх-Эрдэнэ</a></div>
       </div>
 
       <!-- Action buttons -->
       <div class="action-buttons">
         <button class="action-btn" id="clear-all-btn">
           <span class="icon">🗑️</span>
-          <span class="btn-text">Clear All</span>
+          <span class="btn-text">Арилгах</span>
         </button>
         <button class="action-btn" id="invite-btn">
           <span class="icon">👥</span>
-          <span class="btn-text">Invite Friend</span>
+          <span class="btn-text">Найзаа урих</span>
         </button>
       </div>
 
@@ -970,27 +970,27 @@
       <div class="gesture-hints">
         <div class="gesture-hint">
           <div class="gesture-icon">☝️</div>
-          <span>Point to draw</span>
+          <span>Зурах</span>
         </div>
         <div class="gesture-hint">
           <div class="gesture-icon">🤏</div>
-          <span>Pinch to grab</span>
+          <span>Барьж авах</span>
         </div>
         <div class="gesture-hint">
           <div class="gesture-icon">🖐️</div>
-          <span>Palm to inflate</span>
+          <span>3D Болгох</span>
         </div>
       </div>
 
       <div class="controls-info">
-        <span>SCROLL to zoom</span>
-        <span>DRAG to orbit</span>
-        <span>CLICK object to select</span>
+        <span>Zoom</span>
+        <span>Orbit</span>
+        <span>Select</span>
       </div>
 
       <div id="status-message"></div>
 
-      <div class="decorative-text">create with your hands</div>
+      <div class="decorative-text">Гараараа хийнэ үү</div>
     </div>
     </div>
 
@@ -998,25 +998,25 @@
     <div class="modal-overlay" id="invite-modal">
       <div class="modal">
         <div class="modal-header">
-          <h2 class="modal-title">Invite Friend</h2>
+          <h2 class="modal-title">Найзаа урих</h2>
           <button class="modal-close" id="modal-close">&times;</button>
         </div>
         <div class="modal-body">
-          <p>Share this room code with a friend to draw together in real-time!</p>
+          <p>Кодыг илгээгээд найз аа урина уу!</p>
 
           <div class="room-code-section">
-            <div class="room-code-label">Your Room Code</div>
+            <div class="room-code-label">Таны код</div>
             <div class="room-code-display">
               <div class="room-code" id="room-code">------</div>
               <button class="copy-btn" id="copy-code-btn" title="Copy to clipboard">📋</button>
             </div>
           </div>
 
-          <div class="divider"><span>or join a friend</span></div>
+          <div class="divider"><span>Найзын код</span></div>
 
           <div class="join-section">
             <input type="text" id="join-code-input" placeholder="Enter room code" maxlength="6">
-            <button class="join-btn" id="join-room-btn">Join Room</button>
+            <button class="join-btn" id="join-room-btn">Нэвтрэх</button>
           </div>
 
           <div class="connection-status" id="connection-status">
@@ -1029,7 +1029,7 @@
 
     <div id="loading-overlay">
       <div class="loading-spinner"></div>
-      <div class="loading-text">Initializing hand tracking...</div>
+      <div class="loading-text">Уншиж байна...</div>
     </div>
   </div>
 
