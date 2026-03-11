@@ -527,7 +527,7 @@ class AirCanvas {
 
     // Show/hide hand detection message
     if (!this.handDetected && wasDetected) {
-      this.showStatus('Show your hand to begin');
+      this.showStatus('Гараа гаргана уу');
     } else if (this.handDetected && !wasDetected) {
       this.hideStatus();
     }
